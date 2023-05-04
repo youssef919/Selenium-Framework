@@ -34,6 +34,7 @@ public class TestBase extends AbstractTestNGCucumberTests{
 		}	
 	
 	       driver.manage().window().maximize();
+	     
 	       driver.navigate().to("https://demo.nopcommerce.com/");
 			
 	}

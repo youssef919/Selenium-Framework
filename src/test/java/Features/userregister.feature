@@ -4,7 +4,7 @@ Feature: User Registeration
 Scenario Outline: User Registeration
 Given The user in home page 
 When i click on register link 
-And i entered data user "<firstname>" "<lastname>" "<email>" "<password>"
+And i entered data user "<firstname>" ,"<lastname>" ,"<email>" ,"<password>"
 Then the page of registeration displayed successfuly
 
 Examples:

@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-03T14:34:16 EET" name="nopcommerce Suite" finished-at="2023-05-03T14:34:29 EET" duration-ms="13133">
+  <suite started-at="2023-05-04T11:04:52 EET" name="nopcommerce Suite" finished-at="2023-05-04T11:05:04 EET" duration-ms="12516">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestCase@368247b9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-03T14:34:16 EET" name="Test" finished-at="2023-05-03T14:34:29 EET" duration-ms="13133">
+    <test started-at="2023-05-04T11:04:52 EET" name="Test" finished-at="2023-05-04T11:05:04 EET" duration-ms="12516">
       <class name="tests.TestCase">
-        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:11 EET" name="startdriver" finished-at="2023-05-03T14:34:16 EET" duration-ms="4853" status="PASS">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:45 EET" name="startdriver" finished-at="2023-05-04T11:04:52 EET" duration-ms="6880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,22 +21,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:16 EET" name="setUpClass" finished-at="2023-05-03T14:34:17 EET" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:52 EET" name="setUpClass" finished-at="2023-05-04T11:04:52 EET" duration-ms="217" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@14a049f9]]>
+                <![CDATA[org.testng.TestRunner@94e51e8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="Testing0()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:17 EET" name="Testing0" finished-at="2023-05-03T14:34:18 EET" duration-ms="1455" status="PASS">
+        <test-method signature="Testing0()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:52 EET" name="Testing0" finished-at="2023-05-04T11:04:54 EET" duration-ms="2491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing0 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:18 EET" name="takescreenshot" finished-at="2023-05-03T14:34:18 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:54 EET" name="takescreenshot" finished-at="2023-05-04T11:04:54 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing1()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:18 EET" name="Testing1" finished-at="2023-05-03T14:34:21 EET" depends-on-methods="tests.TestCase.Testing0" duration-ms="2512" status="PASS">
+        <test-method signature="Testing1()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:54 EET" name="Testing1" finished-at="2023-05-04T11:04:56 EET" depends-on-methods="tests.TestCase.Testing0" duration-ms="1895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing1 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:21 EET" name="takescreenshot" finished-at="2023-05-03T14:34:21 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:56 EET" name="takescreenshot" finished-at="2023-05-04T11:04:56 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing2()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:21 EET" name="Testing2" finished-at="2023-05-03T14:34:21 EET" depends-on-methods="tests.TestCase.Testing1" duration-ms="530" status="PASS">
+        <test-method signature="Testing2()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:56 EET" name="Testing2" finished-at="2023-05-04T11:04:57 EET" depends-on-methods="tests.TestCase.Testing1" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing2 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:21 EET" name="takescreenshot" finished-at="2023-05-03T14:34:21 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:57 EET" name="takescreenshot" finished-at="2023-05-04T11:04:57 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing3()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:21 EET" name="Testing3" finished-at="2023-05-03T14:34:22 EET" depends-on-methods="tests.TestCase.Testing2" duration-ms="1091" status="PASS">
+        <test-method signature="Testing3()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:57 EET" name="Testing3" finished-at="2023-05-04T11:04:58 EET" depends-on-methods="tests.TestCase.Testing2" duration-ms="931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing3 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:22 EET" name="takescreenshot" finished-at="2023-05-03T14:34:22 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:58 EET" name="takescreenshot" finished-at="2023-05-04T11:04:58 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,11 +92,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing4()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:22 EET" name="Testing4" finished-at="2023-05-03T14:34:23 EET" depends-on-methods="tests.TestCase.Testing3" duration-ms="504" status="PASS">
+        <test-method signature="Testing4()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:58 EET" name="Testing4" finished-at="2023-05-04T11:04:58 EET" depends-on-methods="tests.TestCase.Testing3" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing4 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:23 EET" name="takescreenshot" finished-at="2023-05-03T14:34:23 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:58 EET" name="takescreenshot" finished-at="2023-05-04T11:04:58 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing5()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:23 EET" name="Testing5" finished-at="2023-05-03T14:34:24 EET" depends-on-methods="tests.TestCase.Testing4" duration-ms="1387" status="PASS">
+        <test-method signature="Testing5()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:58 EET" name="Testing5" finished-at="2023-05-04T11:04:59 EET" depends-on-methods="tests.TestCase.Testing4" duration-ms="1256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing5 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:24 EET" name="takescreenshot" finished-at="2023-05-03T14:34:24 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:59 EET" name="takescreenshot" finished-at="2023-05-04T11:04:59 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,11 +122,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing6()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:24 EET" name="Testing6" finished-at="2023-05-03T14:34:27 EET" depends-on-methods="tests.TestCase.Testing5" duration-ms="2962" status="PASS">
+        <test-method signature="Testing6()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:04:59 EET" name="Testing6" finished-at="2023-05-04T11:05:02 EET" depends-on-methods="tests.TestCase.Testing5" duration-ms="2633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing6 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:27 EET" name="takescreenshot" finished-at="2023-05-03T14:34:27 EET" duration-ms="0" status="PASS">
+        <test-method signature="Testing7()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:05:02 EET" name="Testing7" finished-at="2023-05-04T11:05:04 EET" depends-on-methods="tests.TestCase.Testing6" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing7 -->
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:05:02 EET" name="takescreenshot" finished-at="2023-05-04T11:05:02 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,11 +141,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing7()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:27 EET" name="Testing7" finished-at="2023-05-03T14:34:29 EET" depends-on-methods="tests.TestCase.Testing6" duration-ms="2408" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:05:04 EET" name="tearDownClass" finished-at="2023-05-04T11:05:04 EET" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testing7 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:29 EET" name="takescreenshot" finished-at="2023-05-03T14:34:29 EET" duration-ms="0" status="PASS">
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:05:04 EET" name="takescreenshot" finished-at="2023-05-04T11:05:04 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,11 +156,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:29 EET" name="tearDownClass" finished-at="2023-05-03T14:34:29 EET" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-03T14:34:30 EET" name="closedriver" finished-at="2023-05-03T14:34:30 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:tests.TestCase@368247b9]" started-at="2023-05-04T11:05:04 EET" name="closedriver" finished-at="2023-05-04T11:05:04 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->

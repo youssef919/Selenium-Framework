@@ -6,10 +6,10 @@
     <classes>
       <class name="tests.TestCase">
         <methods>
-          <include name="Testing5"/>
           <include name="takescreenshot"/>
-          <include name="Testing6"/>
+          <include name="Testing5"/>
           <include name="setUpClass"/>
+          <include name="Testing6"/>
           <include name="Testing3"/>
           <include name="Testing4"/>
           <include name="Testing1"/>
@@ -17,8 +17,8 @@
           <include name="Testing0"/>
           <include name="tearDownClass"/>
           <include name="closedriver"/>
-          <include name="Testing7"/>
           <include name="startdriver"/>
+          <include name="Testing7"/>
         </methods>
       </class> <!-- tests.TestCase -->
     </classes>

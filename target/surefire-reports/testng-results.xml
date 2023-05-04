@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-03T14:41:18 EET" name="nopcommerce Suite" finished-at="2023-05-03T14:41:31 EET" duration-ms="13140">
+  <suite started-at="2023-05-04T17:15:30 EET" name="nopcommerce Suite" finished-at="2023-05-04T17:15:43 EET" duration-ms="13267">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestCase@7d4f9aae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestCase@3af0a9da]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-03T14:41:18 EET" name="Test" finished-at="2023-05-03T14:41:31 EET" duration-ms="13140">
+    <test started-at="2023-05-04T17:15:30 EET" name="Test" finished-at="2023-05-04T17:15:43 EET" duration-ms="13267">
       <class name="tests.TestCase">
-        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:12 EET" name="startdriver" finished-at="2023-05-03T14:41:18 EET" duration-ms="5634" status="PASS">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:24 EET" name="startdriver" finished-at="2023-05-04T17:15:30 EET" duration-ms="5625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,142 +21,142 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:18 EET" name="setUpClass" finished-at="2023-05-03T14:41:18 EET" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:30 EET" name="setUpClass" finished-at="2023-05-04T17:15:30 EET" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5e7c141d]]>
+                <![CDATA[org.testng.TestRunner@4a3bd45b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="Testing0()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:18 EET" name="Testing0" finished-at="2023-05-03T14:41:20 EET" duration-ms="1985" status="PASS">
+        <test-method signature="Testing0()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:30 EET" name="Testing0" finished-at="2023-05-04T17:15:32 EET" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing0 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:20 EET" name="takescreenshot" finished-at="2023-05-03T14:41:20 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:32 EET" name="takescreenshot" finished-at="2023-05-04T17:15:32 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing0 status=SUCCESS method=TestCase.Testing0()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing0 status=SUCCESS method=TestCase.Testing0()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing1()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:20 EET" name="Testing1" finished-at="2023-05-03T14:41:22 EET" depends-on-methods="tests.TestCase.Testing0" duration-ms="1917" status="PASS">
+        <test-method signature="Testing1()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:32 EET" name="Testing1" finished-at="2023-05-04T17:15:33 EET" depends-on-methods="tests.TestCase.Testing0" duration-ms="1730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing1 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:22 EET" name="takescreenshot" finished-at="2023-05-03T14:41:22 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:33 EET" name="takescreenshot" finished-at="2023-05-04T17:15:33 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing1 status=SUCCESS method=TestCase.Testing1()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing1 status=SUCCESS method=TestCase.Testing1()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing2()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:22 EET" name="Testing2" finished-at="2023-05-03T14:41:22 EET" depends-on-methods="tests.TestCase.Testing1" duration-ms="451" status="PASS">
+        <test-method signature="Testing2()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:33 EET" name="Testing2" finished-at="2023-05-04T17:15:34 EET" depends-on-methods="tests.TestCase.Testing1" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing2 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:22 EET" name="takescreenshot" finished-at="2023-05-03T14:41:22 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:34 EET" name="takescreenshot" finished-at="2023-05-04T17:15:34 EET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing2 status=SUCCESS method=TestCase.Testing2()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing2 status=SUCCESS method=TestCase.Testing2()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing3()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:22 EET" name="Testing3" finished-at="2023-05-03T14:41:23 EET" depends-on-methods="tests.TestCase.Testing2" duration-ms="1055" status="PASS">
+        <test-method signature="Testing3()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:34 EET" name="Testing3" finished-at="2023-05-04T17:15:35 EET" depends-on-methods="tests.TestCase.Testing2" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing3 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:23 EET" name="takescreenshot" finished-at="2023-05-03T14:41:23 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:35 EET" name="takescreenshot" finished-at="2023-05-04T17:15:35 EET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing3 status=SUCCESS method=TestCase.Testing3()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing3 status=SUCCESS method=TestCase.Testing3()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing4()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:23 EET" name="Testing4" finished-at="2023-05-03T14:41:24 EET" depends-on-methods="tests.TestCase.Testing3" duration-ms="465" status="PASS">
+        <test-method signature="Testing4()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:35 EET" name="Testing4" finished-at="2023-05-04T17:15:35 EET" depends-on-methods="tests.TestCase.Testing3" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing4 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:24 EET" name="takescreenshot" finished-at="2023-05-03T14:41:24 EET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:35 EET" name="takescreenshot" finished-at="2023-05-04T17:15:35 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing4 status=SUCCESS method=TestCase.Testing4()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing4 status=SUCCESS method=TestCase.Testing4()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing5()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:24 EET" name="Testing5" finished-at="2023-05-03T14:41:26 EET" depends-on-methods="tests.TestCase.Testing4" duration-ms="2187" status="PASS">
+        <test-method signature="Testing5()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:35 EET" name="Testing5" finished-at="2023-05-04T17:15:36 EET" depends-on-methods="tests.TestCase.Testing4" duration-ms="1209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing5 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:26 EET" name="takescreenshot" finished-at="2023-05-03T14:41:26 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:36 EET" name="takescreenshot" finished-at="2023-05-04T17:15:36 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing5 status=SUCCESS method=TestCase.Testing5()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing5 status=SUCCESS method=TestCase.Testing5()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing6()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:26 EET" name="Testing6" finished-at="2023-05-03T14:41:29 EET" depends-on-methods="tests.TestCase.Testing5" duration-ms="2729" status="PASS">
+        <test-method signature="Testing6()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:36 EET" name="Testing6" finished-at="2023-05-04T17:15:40 EET" depends-on-methods="tests.TestCase.Testing5" duration-ms="3384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing6 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:29 EET" name="takescreenshot" finished-at="2023-05-03T14:41:29 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:40 EET" name="takescreenshot" finished-at="2023-05-04T17:15:40 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing6 status=SUCCESS method=TestCase.Testing6()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing6 status=SUCCESS method=TestCase.Testing6()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method signature="Testing7()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:29 EET" name="Testing7" finished-at="2023-05-03T14:41:31 EET" depends-on-methods="tests.TestCase.Testing6" duration-ms="2145" status="PASS">
+        <test-method signature="Testing7()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:40 EET" name="Testing7" finished-at="2023-05-04T17:15:43 EET" depends-on-methods="tests.TestCase.Testing6" duration-ms="3560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing7 -->
-        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:31 EET" name="takescreenshot" finished-at="2023-05-03T14:41:31 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:43 EET" name="takescreenshot" finished-at="2023-05-04T17:15:43 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Testing7 status=SUCCESS method=TestCase.Testing7()[pri:0, instance:tests.TestCase@7d4f9aae] output={null}]]]>
+                <![CDATA[[TestResult name=Testing7 status=SUCCESS method=TestCase.Testing7()[pri:0, instance:tests.TestCase@3af0a9da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshot -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:31 EET" name="tearDownClass" finished-at="2023-05-03T14:41:31 EET" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:43 EET" name="tearDownClass" finished-at="2023-05-04T17:15:43 EET" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:tests.TestCase@7d4f9aae]" started-at="2023-05-03T14:41:31 EET" name="closedriver" finished-at="2023-05-03T14:41:31 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:tests.TestCase@3af0a9da]" started-at="2023-05-04T17:15:43 EET" name="closedriver" finished-at="2023-05-04T17:15:43 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
