@@ -5,7 +5,9 @@
  - maven 
  - TestNG
  - PoM
- - Allure Report 
+ - Allure Report
+ - Cucumber 
+ - Chrome Headless 
  - Jenkins Pipeline
  - Selenium Grid  
  - Cloud Such as Sauce Labs 
