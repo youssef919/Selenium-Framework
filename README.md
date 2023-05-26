@@ -1,5 +1,4 @@
 # Selenium-Framework
-  Selenium framework project using 
 
  - java 
  - maven 
